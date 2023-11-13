@@ -58,6 +58,6 @@ public class ComprobacionDeErrores {
     
     public boolean comprobarNombres(String nombre) {
     
-        return nombre.matches("^[a-zA-ZáéíóúÁÉÍÓÚüÜñÑ'´`]+$");
+        return nombre.matches("^[a-zA-ZáéíóúÁÉÍÓÚüÜñÑ'´` ]+$");
     }
 }
